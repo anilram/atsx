@@ -1,56 +1,42 @@
 ```
-# Documentation and planning files
-*.md
-*.sql
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+target/
 
-# Logs and temporary files
+# Dependencies
+.mypy_cache/
+.pytest_cache/
+.gradle/
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Logs and temp files
 *.log
 *.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Build artifacts
-dist/
-build/
-target/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
 
 # Compressed files
 *.zip
